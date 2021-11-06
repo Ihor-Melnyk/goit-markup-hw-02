@@ -1,3 +1,38 @@
-/*  кометировать область
-*/
+:root {
+  --main-title-color: #2196f3;
+  --second-title-color: #212121;
+  --third-tittle-color: #000000;
+  --fourth-tittle-color: #ffffff;
+  --main-text-color: #757575;
+  --second-text-color: #ffffff;
+  --subtitle-color: #000000;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: Raleway;
+  color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-tittle-color);
+}
 
+.footer {
+  background: #2f303a;
+}
