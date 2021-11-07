@@ -85,6 +85,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--second-text-color);
 }
 .hero-btn {
@@ -104,10 +105,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-title-color);
 }
 .dignity-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,7 +142,6 @@ body {
   color: var(--second-title-color);
 }
 .command-item-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -167,21 +167,18 @@ body {
   color: var(--fourth-tittle-color);
 }
 .footer-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .footer-mail {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
 }
 .footer-tel {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -190,6 +187,7 @@ body {
 .portfolio-filtr-button:active,
 .portfolio-filtr-button:hover,
 .portfolio-filtr-button:focus {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -199,6 +197,7 @@ body {
   background: var(--main-title-color);
 }
 .portfolio-filtr-button {
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -221,7 +220,6 @@ body {
   color: var(--second-title-color);
 }
 .works-item-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
